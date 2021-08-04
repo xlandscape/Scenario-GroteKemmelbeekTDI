@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<landscape_package>
+  <meta>
+    <version>1.0.0</version>
+    <target_lulc_type>222</target_lulc_type>
+    <habitat_lulc_types>411, 412, 422</habitat_lulc_types>
+  </meta>
+  <base>
+    <base_landscape_geometries>LULC.shp</base_landscape_geometries>
+    <feature_id_attribute>ALVID</feature_id_attribute>
+    <feature_lulc_type_attribute>LULCTypeId</feature_lulc_type_attribute>
+    <additional_attributes>
+      <reach_id>key</reach_id>
+    </additional_attributes>
+  </base>
+  <supplementary>
+    <hydrography>Reachlist_shp.shp</hydrography>
+  </supplementary>
+  <supplementary_shapefiles>
+    <hydrography>
+      <file_name>Reachlist_shp.shp</file_name>
+      <attributes>
+        <id column="key" />
+      </attributes>
+    </hydrography>
+  </supplementary_shapefiles>
+</landscape_package>

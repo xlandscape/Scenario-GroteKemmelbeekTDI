@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+    <Version>1.1</Version>
+    <SupportedRuntimeVersions>
+        <Version number="1.5.4" />
+    </SupportedRuntimeVersions>
+    <Description>Grote Kemmelbeek catchment Belgium, v-shape, kinematic wave</Description>
+    <Changelog>
+        <Version number="1.1" date="2021-08-04">
+            <Change author="sascha">restructured package</Change>
+            <Change author="sascha">cleaned version numbers</Change>
+            <Change author="sascha">changed spelling of TimeSeries</Change>
+        </Version>
+        <Version number="1.0.05012021" date="2020-12-05">
+            <Addition author="Sebastian">initial release of the scenario</Addition>
+        </Version>
+    </Changelog>
+    <Content>
+        <Item name="LandscapeScenario" target="geo/package.xinfo" version="1.0.0" />
+        <Item name="Temperature" target="weather/mars25_temperature.csv" version="1" />
+        <Item name="Hydrology" target="hydro/hydro_reaches.h5" version="1.0.05012021" doc="hydro/doc"/>
+        <Item name="Catchment" target="hydro/CatchmentList.csv" version="1.0.05012021" />
+        <Item name="TimeSeries" target="hydro/TimeSeries" version="1.0.05012021" />
+        <Item name="Map" target="stream_com/map.xml" version="2.0.1" />
+        <Item name="SiteInformation" target="stream_com/site_niers_peutenweg.txt" version="2.0.10" />
+        <Item name="SpeciesParameters" target="stream_com/spec.xml" version="2.0.19" />
+        <Item name="WaterTemperature" target="stream_com/temp_Kornelimuenster.txt" version="2.0.10" />
+        <Item name="Biomass" target="stream_com/biomass.txt" version="2.0.19" />
+    </Content>
+</Project>
