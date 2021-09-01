@@ -2,7 +2,7 @@
 <Project>
     <Version>1.1</Version>
     <SupportedRuntimeVersions>
-        <Version number="1.5.4" />
+        <Version variant="xAquaticRisk" number="2.33" />
     </SupportedRuntimeVersions>
     <Description>Grote Kemmelbeek catchment Belgium, v-shape, kinematic wave</Description>
     <Changelog>
