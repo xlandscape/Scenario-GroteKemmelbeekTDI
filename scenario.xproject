@@ -19,7 +19,7 @@
         </Version>
     </Changelog>
     <Content>
-        <Item name="LandscapeScenario" target="geo/package.xinfo" version="1.0.0" />
+        <Item name="LandscapeScenario" target="geo/package.xinfo" version="1.1.0" />
         <Item name="Temperature" target="weather/mars25_temperature.csv" version="1" />
         <Item name="Hydrology" target="hydro/hydro_reaches.h5" version="1.0.05012021" doc="hydro/doc"/>
         <Item name="Catchment" target="hydro/CatchmentList.csv" version="1.0.05012021" />
