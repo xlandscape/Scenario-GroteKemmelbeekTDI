@@ -1,6 +1,15 @@
 # Changelog
 This list contains all additions, changes and fixes for the scenario.
-It was automatically created on 2021-09-01
+It was automatically created on 2021-11-18
+
+## [1.3] - 2021-11-18
+### Added
+
+###Changed
+- Updated geo-data to version 1.1.0
+
+###Fixed
+
 
 ## [1.2] - 2021-09-01
 ### Added

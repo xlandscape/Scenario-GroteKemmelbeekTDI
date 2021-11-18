@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <landscape_package>
   <meta>
-    <version>1.0.0</version>
-    <target_lulc_type>222</target_lulc_type>
-    <habitat_lulc_types>411, 412, 422</habitat_lulc_types>
+    <version>1.1.0</version>
+    <target_type>222</target_type>
+    <habitat_types>411, 412, 422</habitat_types>
   </meta>
   <base>
     <base_landscape_geometries>LULC.shp</base_landscape_geometries>
     <feature_id_attribute>ALVID</feature_id_attribute>
-    <feature_lulc_type_attribute>LULCTypeId</feature_lulc_type_attribute>
+    <feature_type_attribute>LULCTypeId</feature_type_attribute>
     <additional_attributes>
       <reach_id>key</reach_id>
     </additional_attributes>
@@ -20,7 +20,20 @@
     <hydrography>
       <file_name>Reachlist_shp.shp</file_name>
       <attributes>
-        <id column="key" />
+        <id column="key" role="id"/>
+        <strahler_order column="strahler"/>
+        <downstream column="downstream"/>
+        <bottom_width column="btmwidth" unit="m"/>
+        <bank_slope column="bankslope" unit="1"/>
+        <organic_content column="oc" unit="g/g"/>
+        <bulk_density column="dens" unit="g/cm³"/>
+        <porosity column="porosity" unit="m³/m³"/>
+        <initial_depth column="initial_de" unit="m"/>
+        <manning column="manning_n" unit="1"/>
+        <width column="width" unit="m"/>
+        <shape column="shape_1"/>
+        <sediment_layer_1_depth column="depth_sed" unit="m"/>
+        <sediment_layer_2_depth column="depth_sed_" unit="m"/>
       </attributes>
     </hydrography>
   </supplementary_shapefiles>
