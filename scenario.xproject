@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project>
-    <Version>1.2</Version>
+    <Version>1.3</Version>
     <SupportedRuntimeVersions>
-        <Version variant="xAquaticRisk" number="2.33" />
+        <Version variant="xAquaticRisk" number="2.57" />
     </SupportedRuntimeVersions>
     <Description>Grote Kemmelbeek catchment Belgium, v-shape, kinematic wave</Description>
     <Changelog>
+        <Version number="1.3" date="2021-11-18">
+            <Change author="sascha">Updated geo-data to version 1.1.0</Change>
+        </Version>
         <Version number="1.2" date="2021-09-01">
             <Addition author="sascha">base documentation</Addition>
         </Version>
