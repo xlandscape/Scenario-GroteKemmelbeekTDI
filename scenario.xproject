@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project>
-    <Version>1.3</Version>
+    <Version>1.4</Version>
     <SupportedRuntimeVersions>
-        <Version variant="xAquaticRisk" number="2.57" />
+        <Version variant="xAquaticRisk" number="2.67" />
     </SupportedRuntimeVersions>
     <Description>Grote Kemmelbeek catchment Belgium, v-shape, kinematic wave</Description>
     <Changelog>
+        <Version number="1.4" date="2022-01-12">
+            <Change author="sascha">Updated geo-data to version 1.2.0</Change>
+        </Version>
         <Version number="1.3" date="2021-11-18">
             <Change author="sascha">Updated geo-data to version 1.1.0</Change>
         </Version>
@@ -22,7 +25,7 @@
         </Version>
     </Changelog>
     <Content>
-        <Item name="LandscapeScenario" target="geo/package.xinfo" version="1.1.0" />
+        <Item name="LandscapeScenario" target="geo/package.xinfo" version="1.2.0" />
         <Item name="Temperature" target="weather/mars25_temperature.csv" version="1" />
         <Item name="Hydrology" target="hydro/hydro_reaches.h5" version="1.0.05012021" doc="hydro/doc"/>
         <Item name="Catchment" target="hydro/CatchmentList.csv" version="1.0.05012021" />
