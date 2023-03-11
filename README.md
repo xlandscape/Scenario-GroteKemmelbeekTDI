@@ -15,7 +15,7 @@
 ## About the project
 Grote Kemmelbeek catchment Belgium, v-shape, kinematic wave
 This is an automatically generated documentation based on the available scenario metadata. The current version of this 
-document is from 2022-01-12.
+document is from 2023-03-11.
 
 ### Built with
 The scenario can be used in the following Landscape Models:
@@ -31,6 +31,9 @@ Copy the complete scenario folder unaltered into the `scenario` subdirectory of 
 from the model parameterization. For details how to reference the scenario from the user parameterization, see the 
 `README` of the model.
 
+**This scenario requires an additional resource. Please download the resource from 
+[Scenario-GroteKemmelbeekTDI-hydro-v1.0.05012021.zip](Scenario-GroteKemmelbeekTDI-hydro-v1.0.05012021.zip) 
+and put it into the scenario folder.**
 
 ## Usage
 The scenario adds the following macros to the Landscape Model:
