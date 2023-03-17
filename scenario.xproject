@@ -5,6 +5,10 @@
         <Version variant="xAquaticRisk" number="2.67" />
     </SupportedRuntimeVersions>
     <Description>Grote Kemmelbeek catchment Belgium, v-shape, kinematic wave</Description>
+    <TemporalExtent>
+        <FromDate>1992-01-01</FromDate>
+        <ToDate>2013-12-30</ToDate>
+    </TemporalExtent>
     <Changelog>
         <Version number="1.5" date="2023-03-11">
             <Change author="sascha">Removed hydrology from scenario content</Change>
