@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project>
-    <Version>1.5</Version>
+    <Version>1.6</Version>
     <SupportedRuntimeVersions>
         <Version variant="xAquaticRisk" number="2.67" />
     </SupportedRuntimeVersions>
@@ -10,6 +10,9 @@
         <ToDate>2013-12-30</ToDate>
     </TemporalExtent>
     <Changelog>
+        <Version number="1.6" date="2023-03-17">
+            <Addition author="sascha">Temporal extent to scenario info</Addition>
+        </Version>
         <Version number="1.5" date="2023-03-11">
             <Change author="sascha">Removed hydrology from scenario content</Change>
             <Addition author="sascha">Link to outsourced hydrology to README.md</Addition>
