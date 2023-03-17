@@ -15,7 +15,7 @@
 ## About the project
 Grote Kemmelbeek catchment Belgium, v-shape, kinematic wave
 This is an automatically generated documentation based on the available scenario metadata. The current version of this 
-document is from 2023-03-11.
+document is from 2023-03-17.
 
 ### Built with
 The scenario can be used in the following Landscape Models:
@@ -47,6 +47,9 @@ The scenario adds the following macros to the Landscape Model:
 * `:SpeciesParameters` (version 2.0.19)
 * `:WaterTemperature` (version 2.0.10)
 * `:Biomass` (version 2.0.19)
+
+The scenario covers a time span from `1992-01-01` to 
+`2013-12-30`.
 
 ### Roadmap
 The scenario is final and not further developed. It will be, however, updated to reflect new requirements by the 
