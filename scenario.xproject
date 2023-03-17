@@ -6,7 +6,7 @@
     </SupportedRuntimeVersions>
     <Description>Grote Kemmelbeek catchment Belgium, v-shape, kinematic wave</Description>
     <TemporalExtent>
-        <FromDate>1992-01-01</FromDate>
+        <FromDate>2010-01-01</FromDate>
         <ToDate>2013-12-30</ToDate>
     </TemporalExtent>
     <Changelog>
