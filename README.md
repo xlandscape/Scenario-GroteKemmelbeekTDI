@@ -48,7 +48,7 @@ The scenario adds the following macros to the Landscape Model:
 * `:WaterTemperature` (version 2.0.10)
 * `:Biomass` (version 2.0.19)
 
-The scenario covers a time span from `1992-01-01` to 
+The scenario covers a time span from `2010-01-01` to 
 `2013-12-30`.
 
 ### Roadmap
