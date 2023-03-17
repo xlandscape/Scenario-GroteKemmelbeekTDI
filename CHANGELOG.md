@@ -2,6 +2,15 @@
 This list contains all additions, changes and fixes for the scenario.
 It was automatically created on 2023-03-17
 
+## [1.7] - 2023-03-17
+### Added
+
+###Changed
+
+###Fixed
+- Temporal extent in scenario info
+
+
 ## [1.6] - 2023-03-17
 ### Added
 - Temporal extent to scenario info

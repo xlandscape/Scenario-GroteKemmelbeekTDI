@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project>
-    <Version>1.6</Version>
+    <Version>1.7</Version>
     <SupportedRuntimeVersions>
         <Version variant="xAquaticRisk" number="2.67" />
     </SupportedRuntimeVersions>
     <Description>Grote Kemmelbeek catchment Belgium, v-shape, kinematic wave</Description>
     <TemporalExtent>
-        <FromDate>1992-01-01</FromDate>
+        <FromDate>2010-01-01</FromDate>
         <ToDate>2013-12-30</ToDate>
     </TemporalExtent>
     <Changelog>
+        <Version number="1.7" date="2023-03-17">
+            <Fix author="sascha">Temporal extent in scenario info</Fix>
+        </Version>
         <Version number="1.6" date="2023-03-17">
             <Addition author="sascha">Temporal extent to scenario info</Addition>
         </Version>
