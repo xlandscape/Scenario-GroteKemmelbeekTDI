@@ -1,6 +1,17 @@
 # Changelog
 This list contains all additions, changes and fixes for the scenario.
-It was automatically created on 2023-03-17
+It was automatically created on 2023-09-14
+
+## [1.8] - 2023-09-14
+### Added
+
+###Changed
+- Updated scenario info to fit current requirements
+- Renamed folders for documentation
+
+###Fixed
+- Link to external hydrology
+
 
 ## [1.7] - 2023-03-17
 ### Added
