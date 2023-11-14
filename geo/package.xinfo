@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <landscape_package
-        xmlns="urn:xAquaticRiskLandscapeScenarioPackageInfo"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="urn:xAquaticRiskLandscapeScenarioPackageInfo ../../../model/variant/package.xsd"
+  xmlns="urn:xAquaticRiskLandscapeScenarioPackageInfo"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:xAquaticRiskLandscapeScenarioPackageInfo ../../../model/variant/package.xsd"
 >
   <meta>
     <version>1.2.0</version>
