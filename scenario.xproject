@@ -59,6 +59,7 @@
     <Item name="SpeciesParameters" target="stream_com/spec.xml" version="2.0.19"/>
     <Item name="WaterTemperature" target="stream_com/temp_Kornelimuenster.txt" version="2.0.10"/>
     <Item name="Biomass" target="stream_com/biomass.txt" version="2.0.19"/>
+    <Item name="xDrainageRouting" target="routing/matrix_xAquatics.csv" version="0.0.1"/>    
   </Content>
   <ExternalSources>
     <ExternalSource>https://xlandscape.org/releases/Scenario-GroteKemmelbeekTDI-hydro-v1.0.05012021.zip</ExternalSource>
