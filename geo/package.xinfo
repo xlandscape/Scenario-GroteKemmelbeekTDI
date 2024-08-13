@@ -6,7 +6,7 @@
 >
   <meta>
     <version>1.2.0</version>
-    <target_type>222</target_type>
+    <target_type type="list[int]">222</target_type>
     <habitat_types>411, 412, 422</habitat_types>
   </meta>
   <base>
@@ -15,6 +15,7 @@
     <feature_type_attribute>LULCTypeId</feature_type_attribute>
     <additional_attributes>
       <reach_id>key</reach_id>
+      <soil_type>soil</soil_type>
     </additional_attributes>
   </base>
   <supplementary>
